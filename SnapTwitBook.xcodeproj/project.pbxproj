@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		271B9C141D4928D000E08267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B9C131D4928D000E08267 /* AppDelegate.swift */; };
+		271B9C161D4928D000E08267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B9C151D4928D000E08267 /* ViewController.swift */; };
+		271B9C191D4928D000E08267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271B9C171D4928D000E08267 /* Main.storyboard */; };
+		271B9C1B1D4928D000E08267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271B9C1A1D4928D000E08267 /* Assets.xcassets */; };
+		271B9C1E1D4928D000E08267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271B9C1C1D4928D000E08267 /* LaunchScreen.storyboard */; };
+		271B9C291D4928D000E08267 /* SnapTwitBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B9C281D4928D000E08267 /* SnapTwitBookTests.swift */; };
+		271B9C341D4928D000E08267 /* SnapTwitBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B9C331D4928D000E08267 /* SnapTwitBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		271B9C251D4928D000E08267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 271B9C081D4928D000E08267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 271B9C0F1D4928D000E08267;
+			remoteInfo = SnapTwitBook;
+		};
+		271B9C301D4928D000E08267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 271B9C081D4928D000E08267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 271B9C0F1D4928D000E08267;
+			remoteInfo = SnapTwitBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		271B9C101D4928D000E08267 /* SnapTwitBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapTwitBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		271B9C131D4928D000E08267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		271B9C151D4928D000E08267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		271B9C181D4928D000E08267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		271B9C1A1D4928D000E08267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		271B9C1D1D4928D000E08267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		271B9C1F1D4928D000E08267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271B9C241D4928D000E08267 /* SnapTwitBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapTwitBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		271B9C281D4928D000E08267 /* SnapTwitBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapTwitBookTests.swift; sourceTree = "<group>"; };
+		271B9C2A1D4928D000E08267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271B9C2F1D4928D000E08267 /* SnapTwitBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapTwitBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		271B9C331D4928D000E08267 /* SnapTwitBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapTwitBookUITests.swift; sourceTree = "<group>"; };
+		271B9C351D4928D000E08267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		271B9C0D1D4928D000E08267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271B9C211D4928D000E08267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271B9C2C1D4928D000E08267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		271B9C071D4928D000E08267 = {
+			isa = PBXGroup;
+			children = (
+				271B9C121D4928D000E08267 /* SnapTwitBook */,
+				271B9C271D4928D000E08267 /* SnapTwitBookTests */,
+				271B9C321D4928D000E08267 /* SnapTwitBookUITests */,
+				271B9C111D4928D000E08267 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		271B9C111D4928D000E08267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				271B9C101D4928D000E08267 /* SnapTwitBook.app */,
+				271B9C241D4928D000E08267 /* SnapTwitBookTests.xctest */,
+				271B9C2F1D4928D000E08267 /* SnapTwitBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		271B9C121D4928D000E08267 /* SnapTwitBook */ = {
+			isa = PBXGroup;
+			children = (
+				271B9C131D4928D000E08267 /* AppDelegate.swift */,
+				271B9C151D4928D000E08267 /* ViewController.swift */,
+				271B9C171D4928D000E08267 /* Main.storyboard */,
+				271B9C1A1D4928D000E08267 /* Assets.xcassets */,
+				271B9C1C1D4928D000E08267 /* LaunchScreen.storyboard */,
+				271B9C1F1D4928D000E08267 /* Info.plist */,
+			);
+			path = SnapTwitBook;
+			sourceTree = "<group>";
+		};
+		271B9C271D4928D000E08267 /* SnapTwitBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				271B9C281D4928D000E08267 /* SnapTwitBookTests.swift */,
+				271B9C2A1D4928D000E08267 /* Info.plist */,
+			);
+			path = SnapTwitBookTests;
+			sourceTree = "<group>";
+		};
+		271B9C321D4928D000E08267 /* SnapTwitBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				271B9C331D4928D000E08267 /* SnapTwitBookUITests.swift */,
+				271B9C351D4928D000E08267 /* Info.plist */,
+			);
+			path = SnapTwitBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		271B9C0F1D4928D000E08267 /* SnapTwitBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271B9C381D4928D000E08267 /* Build configuration list for PBXNativeTarget "SnapTwitBook" */;
+			buildPhases = (
+				271B9C0C1D4928D000E08267 /* Sources */,
+				271B9C0D1D4928D000E08267 /* Frameworks */,
+				271B9C0E1D4928D000E08267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapTwitBook;
+			productName = SnapTwitBook;
+			productReference = 271B9C101D4928D000E08267 /* SnapTwitBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		271B9C231D4928D000E08267 /* SnapTwitBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271B9C3B1D4928D000E08267 /* Build configuration list for PBXNativeTarget "SnapTwitBookTests" */;
+			buildPhases = (
+				271B9C201D4928D000E08267 /* Sources */,
+				271B9C211D4928D000E08267 /* Frameworks */,
+				271B9C221D4928D000E08267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				271B9C261D4928D000E08267 /* PBXTargetDependency */,
+			);
+			name = SnapTwitBookTests;
+			productName = SnapTwitBookTests;
+			productReference = 271B9C241D4928D000E08267 /* SnapTwitBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		271B9C2E1D4928D000E08267 /* SnapTwitBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271B9C3E1D4928D000E08267 /* Build configuration list for PBXNativeTarget "SnapTwitBookUITests" */;
+			buildPhases = (
+				271B9C2B1D4928D000E08267 /* Sources */,
+				271B9C2C1D4928D000E08267 /* Frameworks */,
+				271B9C2D1D4928D000E08267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				271B9C311D4928D000E08267 /* PBXTargetDependency */,
+			);
+			name = SnapTwitBookUITests;
+			productName = SnapTwitBookUITests;
+			productReference = 271B9C2F1D4928D000E08267 /* SnapTwitBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		271B9C081D4928D000E08267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mike Manzano";
+				TargetAttributes = {
+					271B9C0F1D4928D000E08267 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					271B9C231D4928D000E08267 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 271B9C0F1D4928D000E08267;
+					};
+					271B9C2E1D4928D000E08267 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 271B9C0F1D4928D000E08267;
+					};
+				};
+			};
+			buildConfigurationList = 271B9C0B1D4928D000E08267 /* Build configuration list for PBXProject "SnapTwitBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 271B9C071D4928D000E08267;
+			productRefGroup = 271B9C111D4928D000E08267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				271B9C0F1D4928D000E08267 /* SnapTwitBook */,
+				271B9C231D4928D000E08267 /* SnapTwitBookTests */,
+				271B9C2E1D4928D000E08267 /* SnapTwitBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		271B9C0E1D4928D000E08267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271B9C1E1D4928D000E08267 /* LaunchScreen.storyboard in Resources */,
+				271B9C1B1D4928D000E08267 /* Assets.xcassets in Resources */,
+				271B9C191D4928D000E08267 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271B9C221D4928D000E08267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271B9C2D1D4928D000E08267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		271B9C0C1D4928D000E08267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271B9C161D4928D000E08267 /* ViewController.swift in Sources */,
+				271B9C141D4928D000E08267 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271B9C201D4928D000E08267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271B9C291D4928D000E08267 /* SnapTwitBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		271B9C2B1D4928D000E08267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271B9C341D4928D000E08267 /* SnapTwitBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		271B9C261D4928D000E08267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 271B9C0F1D4928D000E08267 /* SnapTwitBook */;
+			targetProxy = 271B9C251D4928D000E08267 /* PBXContainerItemProxy */;
+		};
+		271B9C311D4928D000E08267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 271B9C0F1D4928D000E08267 /* SnapTwitBook */;
+			targetProxy = 271B9C301D4928D000E08267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		271B9C171D4928D000E08267 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271B9C181D4928D000E08267 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		271B9C1C1D4928D000E08267 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271B9C1D1D4928D000E08267 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		271B9C361D4928D000E08267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		271B9C371D4928D000E08267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		271B9C391D4928D000E08267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapTwitBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Broham.SnapTwitBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		271B9C3A1D4928D000E08267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapTwitBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Broham.SnapTwitBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		271B9C3C1D4928D000E08267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapTwitBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Broham.SnapTwitBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapTwitBook.app/SnapTwitBook";
+			};
+			name = Debug;
+		};
+		271B9C3D1D4928D000E08267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapTwitBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Broham.SnapTwitBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapTwitBook.app/SnapTwitBook";
+			};
+			name = Release;
+		};
+		271B9C3F1D4928D000E08267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapTwitBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Broham.SnapTwitBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapTwitBook;
+			};
+			name = Debug;
+		};
+		271B9C401D4928D000E08267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapTwitBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Broham.SnapTwitBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapTwitBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		271B9C0B1D4928D000E08267 /* Build configuration list for PBXProject "SnapTwitBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271B9C361D4928D000E08267 /* Debug */,
+				271B9C371D4928D000E08267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		271B9C381D4928D000E08267 /* Build configuration list for PBXNativeTarget "SnapTwitBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271B9C391D4928D000E08267 /* Debug */,
+				271B9C3A1D4928D000E08267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		271B9C3B1D4928D000E08267 /* Build configuration list for PBXNativeTarget "SnapTwitBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271B9C3C1D4928D000E08267 /* Debug */,
+				271B9C3D1D4928D000E08267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		271B9C3E1D4928D000E08267 /* Build configuration list for PBXNativeTarget "SnapTwitBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271B9C3F1D4928D000E08267 /* Debug */,
+				271B9C401D4928D000E08267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 271B9C081D4928D000E08267 /* Project object */;
+}
