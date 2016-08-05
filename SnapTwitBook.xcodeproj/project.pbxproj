@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		271B9C141D4928D000E08267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B9C131D4928D000E08267 /* AppDelegate.swift */; };
-		271B9C161D4928D000E08267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B9C151D4928D000E08267 /* ViewController.swift */; };
+		271B9C161D4928D000E08267 /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B9C151D4928D000E08267 /* StreamViewController.swift */; };
 		271B9C191D4928D000E08267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271B9C171D4928D000E08267 /* Main.storyboard */; };
 		271B9C1B1D4928D000E08267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271B9C1A1D4928D000E08267 /* Assets.xcassets */; };
 		271B9C1E1D4928D000E08267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271B9C1C1D4928D000E08267 /* LaunchScreen.storyboard */; };
 		271B9C291D4928D000E08267 /* SnapTwitBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B9C281D4928D000E08267 /* SnapTwitBookTests.swift */; };
 		271B9C341D4928D000E08267 /* SnapTwitBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B9C331D4928D000E08267 /* SnapTwitBookUITests.swift */; };
+		271B9C421D493BBE00E08267 /* StreamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B9C411D493BBE00E08267 /* StreamCell.swift */; };
+		271B9C471D52823700E08267 /* PhotoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B9C461D52823700E08267 /* PhotoManager.swift */; };
+		271B9C4B1D52ABDF00E08267 /* photos in Resources */ = {isa = PBXBuildFile; fileRef = 271B9C441D5281FA00E08267 /* photos */; };
+		271B9C4D1D5302DB00E08267 /* LoupeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271B9C4C1D5302DB00E08267 /* LoupeViewController.swift */; };
+		27C33A3D1D550E73006DF35F /* StreamToLoupeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C33A3C1D550E73006DF35F /* StreamToLoupeTransition.swift */; };
+		27C33A411D552341006DF35F /* ImageTransitionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C33A401D552341006DF35F /* ImageTransitionable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +39,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		271B9C4A1D52ABB500E08267 /*  */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		271B9C101D4928D000E08267 /* SnapTwitBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapTwitBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		271B9C131D4928D000E08267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		271B9C151D4928D000E08267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		271B9C151D4928D000E08267 /* StreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
 		271B9C181D4928D000E08267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		271B9C1A1D4928D000E08267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		271B9C1D1D4928D000E08267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +66,12 @@
 		271B9C2F1D4928D000E08267 /* SnapTwitBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapTwitBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		271B9C331D4928D000E08267 /* SnapTwitBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapTwitBookUITests.swift; sourceTree = "<group>"; };
 		271B9C351D4928D000E08267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		271B9C411D493BBE00E08267 /* StreamCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamCell.swift; sourceTree = "<group>"; };
+		271B9C441D5281FA00E08267 /* photos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = photos; sourceTree = "<group>"; };
+		271B9C461D52823700E08267 /* PhotoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoManager.swift; sourceTree = "<group>"; };
+		271B9C4C1D5302DB00E08267 /* LoupeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoupeViewController.swift; sourceTree = "<group>"; };
+		27C33A3C1D550E73006DF35F /* StreamToLoupeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamToLoupeTransition.swift; sourceTree = "<group>"; };
+		27C33A401D552341006DF35F /* ImageTransitionable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransitionable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +122,10 @@
 		271B9C121D4928D000E08267 /* SnapTwitBook */ = {
 			isa = PBXGroup;
 			children = (
-				271B9C131D4928D000E08267 /* AppDelegate.swift */,
-				271B9C151D4928D000E08267 /* ViewController.swift */,
-				271B9C171D4928D000E08267 /* Main.storyboard */,
-				271B9C1A1D4928D000E08267 /* Assets.xcassets */,
-				271B9C1C1D4928D000E08267 /* LaunchScreen.storyboard */,
-				271B9C1F1D4928D000E08267 /* Info.plist */,
+				27C33A3A1D550DF7006DF35F /* Model */,
+				27C33A3B1D550E06006DF35F /* Screens */,
+				27C33A391D550DD6006DF35F /* Application */,
+				271B9C441D5281FA00E08267 /* photos */,
 			);
 			path = SnapTwitBook;
 			sourceTree = "<group>";
@@ -125,6 +148,62 @@
 			path = SnapTwitBookUITests;
 			sourceTree = "<group>";
 		};
+		271B9C431D493BCC00E08267 /* Stream */ = {
+			isa = PBXGroup;
+			children = (
+				271B9C151D4928D000E08267 /* StreamViewController.swift */,
+				271B9C411D493BBE00E08267 /* StreamCell.swift */,
+			);
+			name = Stream;
+			sourceTree = "<group>";
+		};
+		27C33A371D550DC8006DF35F /* Loupe */ = {
+			isa = PBXGroup;
+			children = (
+				271B9C4C1D5302DB00E08267 /* LoupeViewController.swift */,
+			);
+			name = Loupe;
+			sourceTree = "<group>";
+		};
+		27C33A381D550DD1006DF35F /* Custom Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				27C33A3C1D550E73006DF35F /* StreamToLoupeTransition.swift */,
+				27C33A401D552341006DF35F /* ImageTransitionable.swift */,
+			);
+			name = "Custom Transitions";
+			sourceTree = "<group>";
+		};
+		27C33A391D550DD6006DF35F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				271B9C171D4928D000E08267 /* Main.storyboard */,
+				271B9C1A1D4928D000E08267 /* Assets.xcassets */,
+				271B9C1C1D4928D000E08267 /* LaunchScreen.storyboard */,
+				271B9C1F1D4928D000E08267 /* Info.plist */,
+				271B9C131D4928D000E08267 /* AppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		27C33A3A1D550DF7006DF35F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				271B9C461D52823700E08267 /* PhotoManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		27C33A3B1D550E06006DF35F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				27C33A381D550DD1006DF35F /* Custom Transitions */,
+				27C33A371D550DC8006DF35F /* Loupe */,
+				271B9C431D493BCC00E08267 /* Stream */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +214,7 @@
 				271B9C0C1D4928D000E08267 /* Sources */,
 				271B9C0D1D4928D000E08267 /* Frameworks */,
 				271B9C0E1D4928D000E08267 /* Resources */,
+				271B9C4A1D52ABB500E08267 /*  */,
 			);
 			buildRules = (
 			);
@@ -187,12 +267,16 @@
 		271B9C081D4928D000E08267 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Mike Manzano";
 				TargetAttributes = {
 					271B9C0F1D4928D000E08267 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 499Z8DV26P;
 					};
 					271B9C231D4928D000E08267 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -229,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				271B9C4B1D52ABDF00E08267 /* photos in Resources */,
 				271B9C1E1D4928D000E08267 /* LaunchScreen.storyboard in Resources */,
 				271B9C1B1D4928D000E08267 /* Assets.xcassets in Resources */,
 				271B9C191D4928D000E08267 /* Main.storyboard in Resources */,
@@ -256,8 +341,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				271B9C161D4928D000E08267 /* ViewController.swift in Sources */,
+				271B9C161D4928D000E08267 /* StreamViewController.swift in Sources */,
+				27C33A3D1D550E73006DF35F /* StreamToLoupeTransition.swift in Sources */,
+				271B9C421D493BBE00E08267 /* StreamCell.swift in Sources */,
+				271B9C471D52823700E08267 /* PhotoManager.swift in Sources */,
+				271B9C4D1D5302DB00E08267 /* LoupeViewController.swift in Sources */,
 				271B9C141D4928D000E08267 /* AppDelegate.swift in Sources */,
+				27C33A411D552341006DF35F /* ImageTransitionable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +491,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SnapTwitBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Broham.SnapTwitBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +505,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SnapTwitBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Broham.SnapTwitBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +580,7 @@
 				271B9C3A1D4928D000E08267 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		271B9C3B1D4928D000E08267 /* Build configuration list for PBXNativeTarget "SnapTwitBookTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +589,7 @@
 				271B9C3D1D4928D000E08267 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		271B9C3E1D4928D000E08267 /* Build configuration list for PBXNativeTarget "SnapTwitBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +598,7 @@
 				271B9C401D4928D000E08267 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
